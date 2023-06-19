@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{ text-decoration: none;}
+
+
+/* HEADER */
+
+.Header{
+    width: 100%;
+    background-color: blueviolet;
+    padding: 2.4rem;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header-img{}
+.Header.nav{}
+.Header-ul{
+    background-color: yellowgreen;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.Header-li{}
+
+/* MAIN */
+
+.Music{
+    width: 100%;
+    background-color: aqua;
+}
+.Music-h1{}
+.Music-p{}
+.Music-a{}
+.Music-img{}
